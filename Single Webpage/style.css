@@ -1,0 +1,101 @@
+body {
+    background-image: url(Images/Background\ Image.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-indent: 20px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: #40e0d0;
+    gap: 4.5rem;
+    text-indent: 35px;
+    margin-right: 50px;
+}
+
+ul li {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:hover {
+    color: #808080;
+}
+
+.contact {
+    border-radius: 10px;
+    border: solid #40e0d0;
+    color: #40e0d0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 3px 15px 3px 15px;
+}
+
+span {
+    display: flex;
+}
+
+span img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: solid #40e0d0;
+    margin-left: 30px;
+}
+
+.margin-left {
+    font-weight: bold;
+    margin-left: -25%;
+    align-items: center;
+    text-indent:0px;
+    margin-top: -30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    color: #fff;
+    font-family: Tahoma;
+    padding: 6rem 0px 0px 8rem;
+}
+
+.container h2 {
+    margin: -20px 0px 3rem 0px;
+}
+
+.container p {
+    margin: 0px 0px 8rem 0px;
+    line-height: 1.5rem; 
+}
+
+.try-now {
+    border:2px solid #fff;
+    border-radius: 7px;
+    padding: 5px 25px 5px 25px;
+    background-color: transparent;
+    color: #40e0d0;
+    font-size: 12px;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+
+.get-it-now {
+    border-radius: 7px;
+    padding: 5px 25px 5px 25px;
+    border: none;
+    color: #40e0d0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #808080;
+}
